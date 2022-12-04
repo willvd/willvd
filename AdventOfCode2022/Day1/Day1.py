@@ -11,7 +11,7 @@ def maximums(items, number_of_maximums):
             maximum.append(items[i])
         for i in indices:
             items.pop(i)
-    return maximum[:3]
+    return maximum[:number_of_maximums]
                         
 
 elves = []
